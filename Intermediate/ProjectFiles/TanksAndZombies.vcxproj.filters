@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TanksAndZombies.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{241E7567-20B8-41BA-85DA-02A84971A56B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TanksAndZombies.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TanksAndZombiesEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{275FEA02-CAD3-480D-8216-9E33BE1565FC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TanksAndZombies">
+			<UniqueIdentifier>{3063483C-C2B6-42A6-9879-D13FA294BE05}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TanksAndZombies\TanksAndZombies.Build.cs">
+			<Filter>Source\TanksAndZombies</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TanksAndZombies\TanksAndZombies.cpp">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\TanksAndZombies.h">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TanksAndZombies\TanksAndZombiesGameModeBase.cpp">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\TanksAndZombiesGameModeBase.h">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
