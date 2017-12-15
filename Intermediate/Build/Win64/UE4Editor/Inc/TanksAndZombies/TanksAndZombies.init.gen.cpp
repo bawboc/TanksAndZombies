@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTanksAndZombies_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TanksAndZombies",
 				PKG_CompiledIn | 0x00000000,
-				0x7B8F6564,
-				0x4DBF3F30,
+				0xFB35719F,
+				0xB810F9FB,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
