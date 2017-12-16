@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TanksAndZombies.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{C1D33F93-B7F3-4AA6-B446-8100419F0F79}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{C069F684-D581-474A-A7C0-84320D8B5295}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{44C254BD-4084-43F5-A9D3-0410D694F0C4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TanksAndZombies.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-			<UniqueIdentifier>{4564EBF2-2C3C-4657-A147-6FC5BB98E108}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{5F30CEEE-65C4-4DF9-8801-1DA0859E13FC}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{6F55260A-1977-4EA3-A1AF-F652DF8B76D4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -33,11 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TanksAndZombies">
-<<<<<<< HEAD
-			<UniqueIdentifier>{B4515242-8A3E-483F-B3F4-9A9CD9676266}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{9D619B82-C6DC-4793-B587-3EE6D759D593}</UniqueIdentifier>
->>>>>>> master
+			<UniqueIdentifier>{FB47D89E-66EE-40C2-AD6A-A20E9416AA82}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TanksAndZombies\Blank.cpp">
 			<Filter>Source\TanksAndZombies</Filter>

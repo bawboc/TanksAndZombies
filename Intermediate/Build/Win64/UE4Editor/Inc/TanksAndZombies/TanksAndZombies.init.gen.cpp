@@ -17,27 +17,15 @@ void EmptyLinkFunctionForGeneratedCodeTanksAndZombies_init() {}
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
-<<<<<<< HEAD
-			static const UE4CodeGen_Private::FPackageParams PackageParams = {
-				"/Script/TanksAndZombies",
-				PKG_CompiledIn | 0x00000000,
-				0xFB35719F,
-				0xB810F9FB,
-				nullptr, 0,
-				METADATA_PARAMS(nullptr, 0)
-			};
-			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
-=======
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/TanksAndZombies")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x9D16174D;
-			Guid.B = 0x4DBF3F30;
+			Guid.A = 0x84EFD8E0;
+			Guid.B = 0xB810F9FB;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
 
->>>>>>> master
 		}
 		return ReturnPackage;
 	}

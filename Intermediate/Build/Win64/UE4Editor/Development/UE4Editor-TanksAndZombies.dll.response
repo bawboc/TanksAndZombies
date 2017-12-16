@@ -26,30 +26,23 @@
 /NODEFAULTLIB:"LIBCP"
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
-<<<<<<< HEAD
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
-"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Blank.cpp.obj"
-"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Tank.cpp.obj"
-=======
 "G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
->>>>>>> master
+"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Blank.cpp.obj"
+"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\MyActor.cpp.obj"
+"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Tank.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombies.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombiesGameModeBase.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksGameMode.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Turret.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Blank.gen.cpp.obj"
+"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\MyActor.gen.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Tank.gen.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombies.init.gen.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombiesGameModeBase.gen.cpp.obj"
-<<<<<<< HEAD
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksGameMode.gen.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\Turret.gen.cpp.obj"
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\PCLaunch.rc.res"
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-=======
 "G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\PCLaunch.rc.res"
 "G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
->>>>>>> master
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -74,18 +67,11 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-<<<<<<< HEAD
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
-"G:\UnrealEngine\UE_4.18\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Paper2D.lib"
-=======
+"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
 "G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 "G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
-"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
 "G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
->>>>>>> master
+"G:\UnrealEngine\UE_4.17\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Paper2D.lib"
 /OUT:"G:\UnrealProjects\TanksAndZombies\Binaries\Win64\UE4Editor-TanksAndZombies.dll"
 /IMPLIB:"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TanksAndZombies.suppressed.lib"
 /PDB:"G:\UnrealProjects\TanksAndZombies\Binaries\Win64\UE4Editor-TanksAndZombies.pdb"
