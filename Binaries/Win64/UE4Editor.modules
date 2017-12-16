@@ -1,7 +1,13 @@
 {
-	"BuildId": "3709383",
-	"Modules": 
+	"Changelist" : 3658906,
+	"CompatibleChangelist" : 3573198,
+	"BuildId" : "7d5229ac-d3e2-4191-ac6f-9a43d8706aee",
+	"Modules" : 
 	{
+<<<<<<< HEAD
 		"TanksAndZombies": "UE4Editor-TanksAndZombies-2826.dll"
+=======
+		"TanksAndZombies" : "UE4Editor-TanksAndZombies.dll"
+>>>>>>> master
 	}
 }
