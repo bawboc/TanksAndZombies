@@ -2,5 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
-
+#include "Core.h"
+#include "Engine.h"
+#include "PaperSpriteComponent.h"
+#include "Runtime/Engine/Classes/Components/ArrowComponent.h"

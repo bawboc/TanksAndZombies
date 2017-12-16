@@ -1,8 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Tank.h"
-#include "Runtime/Engine/Classes/Components/ArrowComponent.h"
-#include "PaperSpriteComponent.h"
+#include "TanksAndZombies.h"
 
 // Sets default values
 ATank::ATank()
@@ -19,6 +18,9 @@ ATank::ATank()
 
 	TankSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("TankSprite"));
 	TankSprite->SetupAttachment(TankDirection);
+
+	ChildTurret = CreateDefaultSubobject<UChildActorComponent>(TEXT("Turret"));
+	ChildTurret->SetupAttachment(TankDirection);
 }
 
 // Called when the game starts or when spawned

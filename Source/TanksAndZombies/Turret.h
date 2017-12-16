@@ -23,6 +23,14 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
+private:
+
+	// Which direction is the tank facing
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Turret", meta = (AllowPrivateAccess = "true"))
+		class UArrowComponent* TurretDirection;
+
+	// Body sprite for the tank.
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Turret", meta = (AllowPrivateAccess = "true"))
+		class UPaperSpriteComponent* TurretSprite;
 	
 };
