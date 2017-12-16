@@ -421,7 +421,9 @@
     <ClInclude Include="..\..\Source\TanksAndZombies\TanksAndZombiesGameModeBase.h" />
     <ClCompile Include="..\..\Source\TanksAndZombies\TanksGameMode.cpp" />
     <ClInclude Include="..\..\Source\TanksAndZombies\TanksGameMode.h" />
+    <ClCompile Include="..\..\Source\TanksAndZombies\TankStatics.cpp" />
     <ClCompile Include="..\..\Source\TanksAndZombies\Turret.cpp" />
+    <ClInclude Include="..\..\Source\TanksAndZombies\TankStatics.h" />
     <ClInclude Include="..\..\Source\TanksAndZombies\Turret.h" />
   </ItemGroup>
   <PropertyGroup>

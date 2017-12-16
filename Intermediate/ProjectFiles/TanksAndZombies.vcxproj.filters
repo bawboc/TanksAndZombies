@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TanksAndZombies.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{44C254BD-4084-43F5-A9D3-0410D694F0C4}</UniqueIdentifier>
+      <UniqueIdentifier>{F47C82BE-13ED-4AE1-8A08-FD1693952B4A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TanksAndZombies.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6F55260A-1977-4EA3-A1AF-F652DF8B76D4}</UniqueIdentifier>
+      <UniqueIdentifier>{A24FCC0D-8570-4A08-AD8C-2E03CFD0DDEA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TanksAndZombies">
-      <UniqueIdentifier>{FB47D89E-66EE-40C2-AD6A-A20E9416AA82}</UniqueIdentifier>
+      <UniqueIdentifier>{FD53C02F-8C97-4670-95DA-0499FCF6F8D9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TanksAndZombies\Tank.cpp">
       <Filter>Source\TanksAndZombies</Filter>
@@ -59,5 +59,15 @@
     <ClInclude Include="..\..\Source\TanksAndZombies\Turret.h">
       <Filter>Source\TanksAndZombies</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TanksAndZombies\TankStatics.h">
+      <Filter>Source\TanksAndZombies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TanksAndZombies\TankStatics.cpp">
+      <Filter>Source\TanksAndZombies</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
