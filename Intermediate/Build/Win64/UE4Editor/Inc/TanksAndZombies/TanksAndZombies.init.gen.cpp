@@ -5,6 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
+PRAGMA_DISABLE_OPTIMIZATION
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -16,15 +17,15 @@ void EmptyLinkFunctionForGeneratedCodeTanksAndZombies_init() {}
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
-			static const UE4CodeGen_Private::FPackageParams PackageParams = {
-				"/Script/TanksAndZombies",
-				PKG_CompiledIn | 0x00000000,
-				0x7B8F6564,
-				0x4DBF3F30,
-				nullptr, 0,
-				METADATA_PARAMS(nullptr, 0)
-			};
-			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
+			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/TanksAndZombies")), false, false));
+			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
+			FGuid Guid;
+			Guid.A = 0x9D16174D;
+			Guid.B = 0x4DBF3F30;
+			Guid.C = 0x00000000;
+			Guid.D = 0x00000000;
+			ReturnPackage->SetGuid(Guid);
+
 		}
 		return ReturnPackage;
 	}
@@ -32,3 +33,4 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
+PRAGMA_ENABLE_OPTIMIZATION

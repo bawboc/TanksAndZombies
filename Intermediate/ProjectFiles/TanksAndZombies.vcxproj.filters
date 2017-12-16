@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TanksAndZombies.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{241E7567-20B8-41BA-85DA-02A84971A56B}</UniqueIdentifier>
+			<UniqueIdentifier>{C069F684-D581-474A-A7C0-84320D8B5295}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TanksAndZombies.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{275FEA02-CAD3-480D-8216-9E33BE1565FC}</UniqueIdentifier>
+			<UniqueIdentifier>{5F30CEEE-65C4-4DF9-8801-1DA0859E13FC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TanksAndZombies">
-			<UniqueIdentifier>{3063483C-C2B6-42A6-9879-D13FA294BE05}</UniqueIdentifier>
+			<UniqueIdentifier>{9D619B82-C6DC-4793-B587-3EE6D759D593}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TanksAndZombies\TanksAndZombies.Build.cs">
 			<Filter>Source\TanksAndZombies</Filter>

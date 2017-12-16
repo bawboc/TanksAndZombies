@@ -6,11 +6,11 @@
 /NAME:"UE4Editor-TanksAndZombies.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombies.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombiesGameModeBase.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombies.init.gen.cpp.obj"
 "G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\TanksAndZombiesGameModeBase.gen.cpp.obj"
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\PCLaunch.rc.res"
-"G:\UnrealEngine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\TanksAndZombies\PCLaunch.rc.res"
+"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
 /OUT:"G:\UnrealProjects\TanksAndZombies\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TanksAndZombies.lib"
