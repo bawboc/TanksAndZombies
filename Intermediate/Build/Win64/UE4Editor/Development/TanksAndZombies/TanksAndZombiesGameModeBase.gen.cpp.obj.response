@@ -352,6 +352,10 @@
 /I G:\UnrealEngine\UE_4.17\Engine\Source\Runtime\AudioMixer\Public\DSP
 /I G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer
 /I G:\UnrealEngine\UE_4.17\Engine\Source\Runtime\AudioMixer
+/I G:\UnrealEngine\UE_4.17\Engine\Plugins\2D\Paper2D\Source\Paper2D\Classes
+/I G:\UnrealEngine\UE_4.17\Engine\Plugins\2D\Paper2D\Source\Paper2D\Public
+/I G:\UnrealEngine\UE_4.17\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D
+/I G:\UnrealEngine\UE_4.17\Engine\Plugins\2D\Paper2D\Source\Paper2D
 /FI"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"G:\UnrealEngine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"

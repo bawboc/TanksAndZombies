@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TanksAndZombies.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{C069F684-D581-474A-A7C0-84320D8B5295}</UniqueIdentifier>
+			<UniqueIdentifier>{44C254BD-4084-43F5-A9D3-0410D694F0C4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TanksAndZombies.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{5F30CEEE-65C4-4DF9-8801-1DA0859E13FC}</UniqueIdentifier>
+			<UniqueIdentifier>{6F55260A-1977-4EA3-A1AF-F652DF8B76D4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,8 +25,26 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TanksAndZombies">
-			<UniqueIdentifier>{9D619B82-C6DC-4793-B587-3EE6D759D593}</UniqueIdentifier>
+			<UniqueIdentifier>{FB47D89E-66EE-40C2-AD6A-A20E9416AA82}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\TanksAndZombies\Blank.cpp">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\Blank.h">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TanksAndZombies\MyActor.cpp">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\MyActor.h">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TanksAndZombies\Tank.cpp">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\Tank.h">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\TanksAndZombies\TanksAndZombies.Build.cs">
 			<Filter>Source\TanksAndZombies</Filter>
 		</None >
@@ -40,6 +58,18 @@
 			<Filter>Source\TanksAndZombies</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\TanksAndZombies\TanksAndZombiesGameModeBase.h">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TanksAndZombies\TanksGameMode.cpp">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\TanksGameMode.h">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TanksAndZombies\Turret.cpp">
+			<Filter>Source\TanksAndZombies</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\Turret.h">
 			<Filter>Source\TanksAndZombies</Filter>
 		</ClInclude >
 	</ItemGroup>
