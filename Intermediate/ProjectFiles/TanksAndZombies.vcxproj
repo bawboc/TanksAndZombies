@@ -412,7 +412,9 @@
     <None Include="..\..\Config\DefaultEditor.ini" />
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
+    <ClCompile Include="..\..\Source\TanksAndZombies\Missile.cpp" />
     <ClCompile Include="..\..\Source\TanksAndZombies\Tank.cpp" />
+    <ClInclude Include="..\..\Source\TanksAndZombies\Missile.h" />
     <ClInclude Include="..\..\Source\TanksAndZombies\Tank.h" />
     <None Include="..\..\Source\TanksAndZombies\TanksAndZombies.Build.cs" />
     <ClCompile Include="..\..\Source\TanksAndZombies\TanksAndZombies.cpp" />

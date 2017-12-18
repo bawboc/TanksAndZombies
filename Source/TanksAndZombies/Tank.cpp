@@ -18,6 +18,14 @@ void FTankInput::MoveY(float AxisValue) {
 	RawMovementInput.Y += AxisValue;
 }
 
+void FTankInput::Fire1(bool bPressed) {
+	bFire1 = bPressed;
+}
+
+void FTankInput::Fire2(bool bPressed) {
+	bFire2 = bPressed;
+}
+
 // Sets default values
 ATank::ATank() {
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -128,6 +136,11 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) {
 
 	PlayerInputComponent->BindAxis("MoveX", this, &ATank::MoveX);
 	PlayerInputComponent->BindAxis("MoveY", this, &ATank::MoveY);
+
+	PlayerInputComponent->BindAction("Fire1", EInputEvent::IE_Pressed, this, &ATank::Fire1Pressed);
+	PlayerInputComponent->BindAction("Fire1", EInputEvent::IE_Released, this, &ATank::Fire1Released);
+	PlayerInputComponent->BindAction("Fire2", EInputEvent::IE_Pressed, this, &ATank::Fire2Pressed);
+	PlayerInputComponent->BindAction("Fire2", EInputEvent::IE_Released, this, &ATank::Fire2Released);
 }
 
 void ATank::MoveX(float AxisValue) {
@@ -136,4 +149,20 @@ void ATank::MoveX(float AxisValue) {
 
 void ATank::MoveY(float AxisValue) {
 	TankInput.MoveY(AxisValue);
+}
+
+void ATank::Fire1Pressed() {
+	TankInput.bFire1 = true;
+}
+
+void ATank::Fire1Released() {
+	TankInput.bFire1 = false;
+}
+
+void ATank::Fire2Pressed() {
+	TankInput.bFire2 = true;
+}
+
+void ATank::Fire2Released() {
+	TankInput.bFire2 = false;
 }

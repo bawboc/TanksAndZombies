@@ -64,9 +64,15 @@
     <ClInclude Include="..\..\Source\TanksAndZombies\TankStatics.h">
       <Filter>Source\TanksAndZombies</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TanksAndZombies\Missile.h">
+      <Filter>Source\TanksAndZombies</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TanksAndZombies\TankStatics.cpp">
+      <Filter>Source\TanksAndZombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TanksAndZombies\Missile.cpp">
       <Filter>Source\TanksAndZombies</Filter>
     </ClCompile>
   </ItemGroup>
