@@ -3,7 +3,7 @@
 #include "Turret.h"
 #include "TanksAndZombies.h"
 #include "Tank.h"
-#include "Missile.h"
+#include "Projectiles/Missile.h"
 
 const FName ATurret::MuzzleSocketName(TEXT("Muzzle"));
 
@@ -62,7 +62,6 @@ void ATurret::Tick(float DeltaTime) {
 		// Handle input.
 		const FTankInput& CurrentInput = Tank->GetCurrentInput();
 		if (CurrentInput.bFire1 && Projectile) {
-			
 			if (UWorld* World = GetWorld()) {
 				float CurrentTime = World->GetTimeSeconds();
 				if (Fire1ReadyTime <= CurrentTime) {

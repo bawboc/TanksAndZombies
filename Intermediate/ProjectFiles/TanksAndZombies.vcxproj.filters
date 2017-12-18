@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TanksAndZombies.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{C1023597-ED88-45C1-BB9D-36364B424B59}</UniqueIdentifier>
+			<UniqueIdentifier>{546F81FF-DB35-46EB-843A-EEEE29A548AF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TanksAndZombies.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{3383A1DF-7CE7-44C6-B5A9-844EF199AF59}</UniqueIdentifier>
+			<UniqueIdentifier>{128839FA-BA12-4085-AFF9-967A245B3D5D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TanksAndZombies">
-			<UniqueIdentifier>{5EB3F66A-7699-494E-AE6C-6DE64ABF0020}</UniqueIdentifier>
+			<UniqueIdentifier>{0DD4E849-AD71-4711-9647-315670DAEAD6}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TanksAndZombies\Tank.cpp">
 			<Filter>Source\TanksAndZombies</Filter>
@@ -68,6 +68,15 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\TanksAndZombies\Turret.h">
 			<Filter>Source\TanksAndZombies</Filter>
+		</ClInclude >
+		<Filter Include="Source\TanksAndZombies\Projectiles">
+			<UniqueIdentifier>{44DB26E6-B805-4F33-8DDA-AA5321F2CA12}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TanksAndZombies\Projectiles\Missile.cpp">
+			<Filter>Source\TanksAndZombies\Projectiles</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TanksAndZombies\Projectiles\Missile.h">
+			<Filter>Source\TanksAndZombies\Projectiles</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>

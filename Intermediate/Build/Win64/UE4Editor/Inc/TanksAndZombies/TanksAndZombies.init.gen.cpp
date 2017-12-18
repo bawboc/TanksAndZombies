@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeTanksAndZombies_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/TanksAndZombies")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xAFDB40F2;
+			Guid.A = 0x291DA3E3;
 			Guid.B = 0xD2A2A5AD;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
