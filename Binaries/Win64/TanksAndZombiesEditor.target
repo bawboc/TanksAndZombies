@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-TanksAndZombies-8408.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-TanksAndZombies-8362.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-TanksAndZombies-8408.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-TanksAndZombies-8362.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-TanksAndZombies-8408.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-TanksAndZombies-8362.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
